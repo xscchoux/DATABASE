@@ -1,0 +1,22 @@
+ ========= Search Ten Greatest Hitters in a CSV File ==========
+{"playerID": "willite01", "nameFirst": "Ted", "nameLast": "Williams", "last_year": 1960.0, "first_year": 1939.0, "career_at_bats": 7706.0, "career_hits": 2654.0, "career_average": 0.3444069556189982}
+{"playerID": "gwynnto01", "nameFirst": "Tony", "nameLast": "Gwynn", "last_year": 2001.0, "first_year": 1982.0, "career_at_bats": 9288.0, "career_hits": 3141.0, "career_average": 0.3381782945736434}
+{"playerID": "musiast01", "nameFirst": "Stan", "nameLast": "Musial", "last_year": 1963.0, "first_year": 1941.0, "career_at_bats": 10972.0, "career_hits": 3630.0, "career_average": 0.3308421436383522}
+{"playerID": "boggswa01", "nameFirst": "Wade", "nameLast": "Boggs", "last_year": 1999.0, "first_year": 1982.0, "career_at_bats": 9180.0, "career_hits": 3010.0, "career_average": 0.32788671023965144}
+{"playerID": "carewro01", "nameFirst": "Rod", "nameLast": "Carew", "last_year": 1985.0, "first_year": 1967.0, "career_at_bats": 9315.0, "career_hits": 3053.0, "career_average": 0.32775093934514227}
+{"playerID": "puckeki01", "nameFirst": "Kirby", "nameLast": "Puckett", "last_year": 1995.0, "first_year": 1984.0, "career_at_bats": 7244.0, "career_hits": 2304.0, "career_average": 0.3180563224737714}
+{"playerID": "guerrvl01", "nameFirst": "Vladimir", "nameLast": "Guerrero", "last_year": 2011.0, "first_year": 1996.0, "career_at_bats": 8155.0, "career_hits": 2590.0, "career_average": 0.31759656652360513}
+{"playerID": "clemero01", "nameFirst": "Roberto", "nameLast": "Clemente", "last_year": 1972.0, "first_year": 1955.0, "career_at_bats": 9454.0, "career_hits": 3000.0, "career_average": 0.31732599957689867}
+{"playerID": "cabremi01", "nameFirst": "Miguel", "nameLast": "Cabrera", "last_year": 2017.0, "first_year": 2003.0, "career_at_bats": 8322.0, "career_hits": 2636.0, "career_average": 0.31675078106224464}
+{"playerID": "heltoto01", "nameFirst": "Todd", "nameLast": "Helton", "last_year": 2013.0, "first_year": 1997.0, "career_at_bats": 7962.0, "career_hits": 2519.0, "career_average": 0.31637779452398895}
+========== Search Ten Greatest Hitters in a MySQL =============
+{'playerID': 'willite01', 'first_name': 'Ted', 'last_name': 'Williams', 'career_average': Decimal('0.3444'), 'career_hits': Decimal('2654'), 'career_at_bats': Decimal('7706'), 'first_year': 1939, 'last_year': 1960}
+{'playerID': 'gwynnto01', 'first_name': 'Tony', 'last_name': 'Gwynn', 'career_average': Decimal('0.3382'), 'career_hits': Decimal('3141'), 'career_at_bats': Decimal('9288'), 'first_year': 1982, 'last_year': 2001}
+{'playerID': 'musiast01', 'first_name': 'Stan', 'last_name': 'Musial', 'career_average': Decimal('0.3308'), 'career_hits': Decimal('3630'), 'career_at_bats': Decimal('10972'), 'first_year': 1941, 'last_year': 1963}
+{'playerID': 'boggswa01', 'first_name': 'Wade', 'last_name': 'Boggs', 'career_average': Decimal('0.3279'), 'career_hits': Decimal('3010'), 'career_at_bats': Decimal('9180'), 'first_year': 1982, 'last_year': 1999}
+{'playerID': 'carewro01', 'first_name': 'Rod', 'last_name': 'Carew', 'career_average': Decimal('0.3278'), 'career_hits': Decimal('3053'), 'career_at_bats': Decimal('9315'), 'first_year': 1967, 'last_year': 1985}
+{'playerID': 'puckeki01', 'first_name': 'Kirby', 'last_name': 'Puckett', 'career_average': Decimal('0.3181'), 'career_hits': Decimal('2304'), 'career_at_bats': Decimal('7244'), 'first_year': 1984, 'last_year': 1995}
+{'playerID': 'guerrvl01', 'first_name': 'Vladimir', 'last_name': 'Guerrero', 'career_average': Decimal('0.3176'), 'career_hits': Decimal('2590'), 'career_at_bats': Decimal('8155'), 'first_year': 1996, 'last_year': 2011}
+{'playerID': 'clemero01', 'first_name': 'Roberto', 'last_name': 'Clemente', 'career_average': Decimal('0.3173'), 'career_hits': Decimal('3000'), 'career_at_bats': Decimal('9454'), 'first_year': 1955, 'last_year': 1972}
+{'playerID': 'cabremi01', 'first_name': 'Miguel', 'last_name': 'Cabrera', 'career_average': Decimal('0.3168'), 'career_hits': Decimal('2636'), 'career_at_bats': Decimal('8322'), 'first_year': 2003, 'last_year': 2017}
+{'playerID': 'heltoto01', 'first_name': 'Todd', 'last_name': 'Helton', 'career_average': Decimal('0.3164'), 'career_hits': Decimal('2519'), 'career_at_bats': Decimal('7962'), 'first_year': 1997, 'last_year': 2013}

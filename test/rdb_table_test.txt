@@ -1,0 +1,83 @@
+
+
+Test find by primary key
+Table:People.csv, key = ["willite01"], field_list=["playerID", "nameLast"]
+Result:()
+
+
+Test find by template
+Table:People.csv, tmp = {"nameLast": "Williams", "throws": "R"}
+Result:<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:People
+connect_info = None
+Key columns = None
+No. of rows = 59
+{'playerID': 'willial02', 'nameLast': 'Williams', 'birthCity': 'Valhermosa Springs', 'throws': 'R'}
+{'playerID': 'willial03', 'nameLast': 'Williams', 'birthCity': 'Pearl Lagoon', 'throws': 'R'}
+{'playerID': 'willibe01', 'nameLast': 'Williams', 'birthCity': 'Alameda', 'throws': 'R'}
+{'playerID': 'willibe02', 'nameLast': 'Williams', 'birthCity': 'San Juan', 'throws': 'R'}
+{'playerID': 'willibi01', 'nameLast': 'Williams', 'birthCity': 'Whistler', 'throws': 'R'}
+
+
+Test insert
+Table:offices.csv, key = "officeCode": "1", new_r = {"officeCode": "201", "city": "Tokyo"}
+
+Before insert:<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': 5, 'city': 'Tokyo', 'phone': '+81 33 224 5000', 'addressLine1': '4-1 Kioicho', 'addressLine2': '', 'state': 'Chiyoda-Ku'}
+After insert:<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 2
+{'officeCode': 5, 'city': 'Tokyo', 'phone': '+81 33 224 5000', 'addressLine1': '4-1 Kioicho', 'addressLine2': '', 'state': 'Chiyoda-Ku'}
+{'officeCode': 201, 'city': 'Tokyo', 'phone': None, 'addressLine1': None, 'addressLine2': None, 'state': None}
+
+
+Update by template
+Table:Offices.csv,  key:  OfficeCode = 1 , new_v = {"state": "Mars", "country": "Jupiter"}
+
+Before update,[{'officeCode': 1, 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'CA', 'country': 'USA'}]
+
+After update,[{'officeCode': 1, 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'Mars', 'country': 'Jupiter'}]
+
+
+Update by template
+Table:Offices.csv,  tmp = {"city":"Boston"} , new_v = {"state":"Mars","country":"Jupiter"}
+
+Before update,<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 2
+{'officeCode': 2, 'city': 'Boston', 'phone': '+1 215 837 0825', 'addressLine1': '1550 Court Place', 'addressLine2': 'Suite 102', 'state': 'MA', 'country': 'USA'}
+{'officeCode': 9, 'city': 'Boston', 'phone': '+1 617 555 1212', 'addressLine1': '1 Government Plaza', 'addressLine2': '', 'state': '', 'country': 'USA'}
+
+After update,<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 2
+{'officeCode': 2, 'city': 'Boston', 'phone': '+1 215 837 0825', 'addressLine1': '1550 Court Place', 'addressLine2': 'Suite 102', 'state': 'Mars', 'country': 'Jupiter'}
+{'officeCode': 9, 'city': 'Boston', 'phone': '+1 617 555 1212', 'addressLine1': '1 Government Plaza', 'addressLine2': '', 'state': 'Mars', 'country': 'Jupiter'}
+
+
+Test delete by template
+Table:Offices.csv, tmp = {"city":"Paris"}
+
+Before delete,<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 1
+{'officeCode': 4, 'city': 'Paris', 'phone': '+33 14 723 4404', 'addressLine1': "43 Rue Jouffroy D'abbans", 'addressLine2': '', 'state': ''}
+
+After delete,<class 'DerivedDataTable.DerivedDataTable'>: name = FBT:offices
+connect_info = None
+Key columns = None
+No. of rows = 0
+
+
+Test delete by key
+Table:Offices.csv, key:  "officeCode" = "1"
+
+Before delete,[{'officeCode': 1, 'city': 'San Francisco', 'phone': '+1 650 219 4782', 'addressLine1': '100 Market Street', 'addressLine2': 'Suite 300', 'state': 'Mars'}]
+
+After delete,()

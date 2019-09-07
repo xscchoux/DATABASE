@@ -1,0 +1,9 @@
+test load
+==============
+
+indexes loaded:
+
+PRIMARY {'name': 'PRIMARY', 'columns': ['uni'], 'kind': 'PRIMARY', 'table_name': 'rings', 'index_data': {'name': 'PRIMARY', 'columns': ['uni'], 'kind': 'PRIMARY', 'table_name': 'rings', 'index_data': {'bb1': {'2': {'uni': 'bb1', 'email': 'bbaggins@shore.gov', 'last_name': 'Baggins', 'first_name': 'Bilbo'}}, 'zb1': {'3': {'uni': 'zb1', 'email': 'zaffy@space.org', 'last_name': 'Beeblebrox', 'first_name': 'Zaphod'}}, 'gg2': {'4': {'uni': 'gg2', 'email': 'gandalf@wizard.org', 'last_name': 'Gandalf', 'first_name': 'Grey'}}, 'fb1': {'5': {'uni': 'fb1', 'email': 'fbaggins@shire.org', 'last_name': 'Baggins', 'first_name': 'Frodo'}}, 'sw3': {'6': {'uni': 'sw3', 'email': 'sw@shire.org', 'last_name': 'Gamgee', 'first_name': 'Samwise'}}, 'og11': {'7': {'uni': 'og11', 'email': 'og@shire.org', 'last_name': 'Gamgee', 'first_name': 'Gaffer'}}}}}
+
+Name {'name': 'Name', 'columns': ['last_name'], 'kind': 'INDEX', 'table_name': 'rings', 'index_data': {'name': 'Name', 'columns': ['last_name'], 'kind': 'INDEX', 'table_name': 'rings', 'index_data': {'Baggins': {'2': {'uni': 'bb1', 'email': 'bbaggins@shore.gov', 'last_name': 'Baggins', 'first_name': 'Bilbo'}, '5': {'uni': 'fb1', 'email': 'fbaggins@shire.org', 'last_name': 'Baggins', 'first_name': 'Frodo'}}, 'Beeblebrox': {'3': {'uni': 'zb1', 'email': 'zaffy@space.org', 'last_name': 'Beeblebrox', 'first_name': 'Zaphod'}}, 'Gandalf': {'4': {'uni': 'gg2', 'email': 'gandalf@wizard.org', 'last_name': 'Gandalf', 'first_name': 'Grey'}}, 'Gamgee': {'6': {'uni': 'sw3', 'email': 'sw@shire.org', 'last_name': 'Gamgee', 'first_name': 'Samwise'}, '7': {'uni': 'og11', 'email': 'og@shire.org', 'last_name': 'Gamgee', 'first_name': 'Gaffer'}}}}}
+

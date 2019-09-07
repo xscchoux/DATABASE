@@ -1,0 +1,30 @@
+test find_by_template
+==============
+
+T = <class 'src.CSVDataTable.CSVDataTable'>: name = people
+primary_key_columns = ['playerID']
+column names = ['playerID', 'birthYear', 'birthMonth', 'birthDay', 'birthCountry', 'birthState', 'birthCity', 'deathYear', 'deathMonth', 'deathDay', 'deathCountry', 'deathState', 'deathCity', 'nameFirst', 'nameLast', 'nameGiven', 'weight', 'height', 'bats', 'throws', 'debut', 'finalGame', 'retroID', 'bbrefID']
+No. of rows = 19370
+(2, OrderedDict([('playerID', 'aardsda01'), ('birthYear', '1981'), ('birthMonth', '12'), ('birthDay', '27'), ('birthCountry', 'USA'), ('birthState', 'CO'), ('birthCity', 'Denver'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'David'), ('nameLast', 'Aardsma'), ('nameGiven', 'David Allan'), ('weight', '215'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '2004-04-06'), ('finalGame', '2015-08-23'), ('retroID', 'aardd001'), ('bbrefID', 'aardsda01')]))
+(3, OrderedDict([('playerID', 'aaronha01'), ('birthYear', '1934'), ('birthMonth', '2'), ('birthDay', '5'), ('birthCountry', 'USA'), ('birthState', 'AL'), ('birthCity', 'Mobile'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Hank'), ('nameLast', 'Aaron'), ('nameGiven', 'Henry Louis'), ('weight', '180'), ('height', '72'), ('bats', 'R'), ('throws', 'R'), ('debut', '1954-04-13'), ('finalGame', '1976-10-03'), ('retroID', 'aaroh101'), ('bbrefID', 'aaronha01')]))
+(4, OrderedDict([('playerID', 'aaronto01'), ('birthYear', '1939'), ('birthMonth', '8'), ('birthDay', '5'), ('birthCountry', 'USA'), ('birthState', 'AL'), ('birthCity', 'Mobile'), ('deathYear', '1984'), ('deathMonth', '8'), ('deathDay', '16'), ('deathCountry', 'USA'), ('deathState', 'GA'), ('deathCity', 'Atlanta'), ('nameFirst', 'Tommie'), ('nameLast', 'Aaron'), ('nameGiven', 'Tommie Lee'), ('weight', '190'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '1962-04-10'), ('finalGame', '1971-09-26'), ('retroID', 'aarot101'), ('bbrefID', 'aaronto01')]))
+(5, OrderedDict([('playerID', 'aasedo01'), ('birthYear', '1954'), ('birthMonth', '9'), ('birthDay', '8'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'Orange'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Don'), ('nameLast', 'Aase'), ('nameGiven', 'Donald William'), ('weight', '190'), ('height', '75'), ('bats', 'R'), ('throws', 'R'), ('debut', '1977-07-26'), ('finalGame', '1990-10-03'), ('retroID', 'aased001'), ('bbrefID', 'aasedo01')]))
+(6, OrderedDict([('playerID', 'abadan01'), ('birthYear', '1972'), ('birthMonth', '8'), ('birthDay', '25'), ('birthCountry', 'USA'), ('birthState', 'FL'), ('birthCity', 'Palm Beach'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Andy'), ('nameLast', 'Abad'), ('nameGiven', 'Fausto Andres'), ('weight', '184'), ('height', '73'), ('bats', 'L'), ('throws', 'L'), ('debut', '2001-09-10'), ('finalGame', '2006-04-13'), ('retroID', 'abada001'), ('bbrefID', 'abadan01')]))
+(7, OrderedDict([('playerID', 'abadfe01'), ('birthYear', '1985'), ('birthMonth', '12'), ('birthDay', '17'), ('birthCountry', 'D.R.'), ('birthState', 'La Romana'), ('birthCity', 'La Romana'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Fernando'), ('nameLast', 'Abad'), ('nameGiven', 'Fernando Antonio'), ('weight', '220'), ('height', '73'), ('bats', 'L'), ('throws', 'L'), ('debut', '2010-07-28'), ('finalGame', '2017-10-01'), ('retroID', 'abadf001'), ('bbrefID', 'abadfe01')]))
+
+Without using indexes
+Row =  <class 'src.CSVDataTable.CSVDataTable'>: name = Derived:people
+primary_key_columns = None
+column names = ['bats', 'bbrefID', 'birthCity', 'birthCountry', 'birthDay', 'birthMonth', 'birthState', 'birthYear', 'deathCity', 'deathCountry', 'deathDay', 'deathMonth', 'deathState', 'deathYear', 'debut', 'finalGame', 'height', 'nameFirst', 'nameGiven', 'nameLast', 'playerID', 'retroID', 'throws', 'weight']
+No. of rows = 1
+(2, {'playerID': 'willite01', 'birthYear': '1918', 'birthMonth': '8', 'birthDay': '30', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'San Diego', 'deathYear': '2002', 'deathMonth': '7', 'deathDay': '5', 'deathCountry': 'USA', 'deathState': 'FL', 'deathCity': 'Inverness', 'nameFirst': 'Ted', 'nameLast': 'Williams', 'nameGiven': 'Theodore Samuel', 'weight': '205', 'height': '75', 'bats': 'L', 'throws': 'R', 'debut': '1939-04-20', 'finalGame': '1960-09-28', 'retroID': 'willt103', 'bbrefID': 'willite01'})
+Elapsed time =  12.040775775909424 
+
+
+Using indexes
+Row =  <class 'src.CSVDataTable.CSVDataTable'>: name = Derived:people
+primary_key_columns = None
+column names = ['bats', 'bbrefID', 'birthCity', 'birthCountry', 'birthDay', 'birthMonth', 'birthState', 'birthYear', 'deathCity', 'deathCountry', 'deathDay', 'deathMonth', 'deathState', 'deathYear', 'debut', 'finalGame', 'height', 'nameFirst', 'nameGiven', 'nameLast', 'playerID', 'retroID', 'throws', 'weight']
+No. of rows = 1
+(2, {'playerID': 'willite01', 'birthYear': '1918', 'birthMonth': '8', 'birthDay': '30', 'birthCountry': 'USA', 'birthState': 'CA', 'birthCity': 'San Diego', 'deathYear': '2002', 'deathMonth': '7', 'deathDay': '5', 'deathCountry': 'USA', 'deathState': 'FL', 'deathCity': 'Inverness', 'nameFirst': 'Ted', 'nameLast': 'Williams', 'nameGiven': 'Theodore Samuel', 'weight': '205', 'height': '75', 'bats': 'L', 'throws': 'R', 'debut': '1939-04-20', 'finalGame': '1960-09-28', 'retroID': 'willt103', 'bbrefID': 'willite01'})
+Elapsed time =  0.01894855499267578

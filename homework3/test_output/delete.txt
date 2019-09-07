@@ -1,0 +1,21 @@
+test delete
+==============
+
+Table =  <class 'src.CSVDataTable.CSVDataTable'>: name = rings
+primary_key_columns = ['uni']
+column names = ['uni', 'email', 'last_name', 'first_name']
+No. of rows = 6
+(2, OrderedDict([('uni', 'bb1'), ('email', 'bbaggins@shore.gov'), ('last_name', 'Baggins'), ('first_name', 'Bilbo')]))
+(3, OrderedDict([('uni', 'zb1'), ('email', 'zaffy@space.org'), ('last_name', 'Beeblebrox'), ('first_name', 'Zaphod')]))
+(4, OrderedDict([('uni', 'gg2'), ('email', 'gandalf@wizard.org'), ('last_name', 'Gandalf'), ('first_name', 'Grey')]))
+(5, OrderedDict([('uni', 'fb1'), ('email', 'fbaggins@shire.org'), ('last_name', 'Baggins'), ('first_name', 'Frodo')]))
+(6, OrderedDict([('uni', 'sw3'), ('email', 'sw@shire.org'), ('last_name', 'Gamgee'), ('first_name', 'Samwise')]))
+(7, OrderedDict([('uni', 'og11'), ('email', 'og@shire.org'), ('last_name', 'Gamgee'), ('first_name', 'Gaffer')]))
+
+template =  {'last_name': 'Gamgee'}
+
+ 2 rows deleted:
+ {6: OrderedDict([('uni', 'sw3'), ('email', 'sw@shire.org'), ('last_name', 'Gamgee'), ('first_name', 'Samwise')]), 7: OrderedDict([('uni', 'og11'), ('email', 'og@shire.org'), ('last_name', 'Gamgee'), ('first_name', 'Gaffer')])}
+
+The rows become:
+{2: OrderedDict([('uni', 'bb1'), ('email', 'bbaggins@shore.gov'), ('last_name', 'Baggins'), ('first_name', 'Bilbo')]), 3: OrderedDict([('uni', 'zb1'), ('email', 'zaffy@space.org'), ('last_name', 'Beeblebrox'), ('first_name', 'Zaphod')]), 4: OrderedDict([('uni', 'gg2'), ('email', 'gandalf@wizard.org'), ('last_name', 'Gandalf'), ('first_name', 'Grey')]), 5: OrderedDict([('uni', 'fb1'), ('email', 'fbaggins@shire.org'), ('last_name', 'Baggins'), ('first_name', 'Frodo')])}

@@ -10,22 +10,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aeneid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/W4111/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="158" column="14" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -41,8 +32,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_context result</find>
-      <find>get_context</find>
       <find>query_params</find>
       <find>got</find>
       <find>field_list</find>
@@ -71,6 +60,8 @@
       <find>set_auto_increment</find>
       <find>get_primary_key</find>
       <find>_add_aliases</find>
+      <find>Dependencies</find>
+      <find>axios</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,17 +100,6 @@
             <path>
               <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
               <item name="homework2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="homework2" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="W4111" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
@@ -308,7 +288,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.18956406" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.18956406" />
       <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.16116248" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -450,19 +430,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/W4111/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="158" column="14" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aeneid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/W4111/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="158" column="14" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,11 @@
+test insert
+==============
+
+Insert a row
+t =  <class 'src.CSVDataTable.CSVDataTable'>: name = batting2
+primary_key_columns = ['playerID']
+column names = ['playerID', 'yearID', 'stint', 'teamID', 'lgID', 'G', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI', 'SB', 'CS', 'BB', 'SO', 'IBB', 'HBP', 'SH', 'SF', 'GIDP']
+No. of rows = 1
+(2, {'playerID': 'newID', 'yearID': '2222'})
+
+Getting rows: [{'playerID': 'newID', 'yearID': '2222'}]

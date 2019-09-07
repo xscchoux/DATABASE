@@ -1,0 +1,24 @@
+test add_index
+==============
+
+KV =  Ferguson_Donald
+I =  Index name: Bob
+Kind: PRIMARY
+Index columns: ['last_name', 'first_name']
+Table name: rings2
+No. of unique index values: 2Entries:
+[Ferguson_Donald:{
+  "2": {
+    "last_name": "Ferguson",
+    "first_name": "Donald",
+    "uni": "sure"
+  }
+}]
+[Chou_Shao-Chi:{
+  "3": {
+    "last_name": "Chou",
+    "first_name": "SC",
+    "uni": "sure"
+  }
+}]
+

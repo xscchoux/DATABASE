@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8851bad4-5a08-4097-8f3e-090d71d1d4ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8851bad4-5a08-4097-8f3e-090d71d1d4ab" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,24 +10,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aeneid.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#24#47#0" expanded="true" />
-                <element signature="e#623#1327#0" />
-                <element signature="e#1368#1598#0" />
-                <element signature="e#1690#1802#0" />
-                <element signature="e#1906#4790#0" />
-                <element signature="e#4826#4892#0" />
-                <element signature="e#4943#5081#0" />
-                <element signature="e#6085#6096#0" />
-                <element signature="e#6233#7505#0" />
-                <element signature="e#7684#10200#0" />
-                <element signature="e#10357#12878#0" />
-                <element signature="e#12999#15538#0" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/W4111/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="158" column="14" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -107,7 +103,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="W4111" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="homework2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="homework2" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -286,7 +308,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.18956406" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990177" visible="true" weight="0.18956406" />
       <window_info id="Structure" order="1" sideWeight="0.50098234" side_tool="true" weight="0.16116248" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -313,9 +335,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aeneid/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/aeneid/utils/dffutils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
@@ -435,19 +454,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#24#47#0" expanded="true" />
-            <element signature="e#623#1327#0" />
-            <element signature="e#1368#1598#0" />
-            <element signature="e#1690#1802#0" />
-            <element signature="e#1906#4790#0" />
-            <element signature="e#4826#4892#0" />
-            <element signature="e#4943#5081#0" />
-            <element signature="e#6085#6096#0" />
-            <element signature="e#6233#7505#0" />
-            <element signature="e#7684#10200#0" />
-            <element signature="e#10357#12878#0" />
-            <element signature="e#12999#15538#0" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/W4111/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="158" column="14" selection-start-line="158" selection-start-column="9" selection-end-line="158" selection-end-column="14" />
         </state>
       </provider>
     </entry>
